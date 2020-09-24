@@ -1,6 +1,7 @@
 function [X,Xs,Xt,Xn,Rs,Rt,Rn] = decomposeSTN(x,S,nWin,nHop,Fs)
 NFFT = nWin;
-win = hann(nWin,'periodic');
+%win = hann(nWin,'periodic');
+win = hann(nWin);
 nHopA = round(nHop/S);
 %O_analysis = nWin / nHopA; % analysis overlap factor
 
