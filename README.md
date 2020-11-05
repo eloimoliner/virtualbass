@@ -1,6 +1,8 @@
 # virtualbass
 Virtual Bass System with Fuzzy Separation of Tones and Transients
 
+Execute "vbs_hybrid.m" as the main script.
+
 Audio demos published in:
 http://research.spa.aalto.fi/publications/papers/dafx20-vbs/
 
